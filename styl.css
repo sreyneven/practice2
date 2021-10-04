@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: rgb(248, 246, 242);
+}
+.header1{
+    background: rgb(70, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.icon{
+    display: flex;
+    margin: 10px;
+    color: #000;
+}
+.phonenum{
+    color: whitesmoke;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 246, 246);
+    margin: 5px;
+    
+}
+.header2{
+    width: 100%;
+    background: rgb(233, 30, 30);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul  {
+    display: flex;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(247, 235, 247);
+}
+a{
+    text-decoration: none;
+    color: rgb(26, 161, 26);
+}
+a:hover{
+    background: rgb(109, 245, 18);
+    padding: 10px;
+    border-radius: 20px;
+}
+.header3{
+    height: 90vh;
+    text-align: center;
+    margin-top: -25px;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(245, 241, 241);
+}
+h2{
+    color: blanchedalmond;
+}
+.h1{
+    color: rgb(70, 134, 5);
+    text-align: center;
+}
+.p{
+    color: blanchedalmond;
+}
+
+p{
+    color: rgb(87, 158, 16);
+    text-align: center;
+}
+.pn{
+    color: rgb(250, 249, 245);
+}
+.p2{
+    color: rgb(252, 247, 247);
+}
+h3{
+    color: rgb(67, 112, 21);
+    text-align: center;
+}
+.p{
+   width: 50%;
+   margin-left: 360px;
+}
+.all-box{
+    display: grid;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: (3,1fr);
+    grid-template-areas: "box1 box2 box3";
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.header4{
+    display: flex;
+    background: red;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h1-3{
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+input{
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    background: rgb(5, 5, 5);
+}
+.f-left{
+    width: 30%;
+}
+.f-center{
+    width: 50%;
+}
+.h1-4{
+    text-align: center;
+    color: rgb(63, 116, 10);
+}
